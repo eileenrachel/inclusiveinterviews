@@ -44,13 +44,10 @@ a {
   display: grid;
   grid-template-rows: 10% 20% 35% 35%;
   grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
-  overflow: hidden;
 }
 
-.subheader-content {
+
+.subheader-content{
   grid-row: 1 / span 1;
   grid-column: 1 / span 8;
   align: left;
@@ -61,39 +58,21 @@ a {
   grid-column: 1 / span 4;
 }
 
-.text-content-2 {
-  grid-row: 3 / span 1;
-  grid-column: 1 / span 4;
-}
+/*Add text-content-2 rule set and properties here:*/
 
-.text-content-3 {
-  grid-row: 2 / span 1;
-  grid-column: 5 / span 4;
-}
+/*Add text-content-3 rule set and properties here:*/
 
-.text-content-4 {
-  grid-row: 4 / span 1;
-  grid-column: 5 / span 4;
-}
+/*Add text-content-4 rule set and properties here:*/
 
-.text-content-5 {
-  grid-row: 4 / span 1;
-  grid-column: 8 / span 4;
-}
+/*Add text-content-5 rule set and properties here:*/
 
-.quote-content {
-  grid-row: 4 / span 1;
-  grid-column: 1 / span 4;
-}
+/*Add quote-content rule set and properties here:*/
 
-image-content {
-  grid-row: 3 / span 1;
-  grid-column: 5 / span 8;
-}
+/*Add image-content rule set and properties here:*/
 
 .info-content {
-  grid-row: 1 span 2;
-  grid-column: 5 / span 8;
+  /*Add properties here:*/
+
   background-color: #292929;
   padding-top: 50px;
   padding-left: 50px;
